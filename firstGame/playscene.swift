@@ -361,7 +361,7 @@ class PlayScene: SKScene {
     }//end missle move
     
     func moveAlien(){
-        for index in 0...1{
+        for index in 0...4{
             
             if alienMode[index] == 1{
                 let distance = spaceShip.position.distanceFromCGPoint(alienSprite[0].position)
